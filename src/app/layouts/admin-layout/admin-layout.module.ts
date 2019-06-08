@@ -10,13 +10,12 @@ import { AdminLayoutRoutes } from './admin-layout.routing';
 
 import { RegionComponent } from '../../pages/region/region.component';
 import { AttestationComponent } from '../../pages/attestation/attestation.component';
-import { CompteComponent } from '../../pages/compte/compte.component';
 import { EmployeComponent } from '../../pages/employe/employe.component';
 import { EtablissementComponent } from '../../pages/etablissement/etablissement.component';
 import { EtudiantComponent } from '../../pages/etudiant/etudiant.component';
 import { ProfilComponent } from '../../pages/profil/profil.component';
-import { TypeComponent } from '../../pages/type/type.component';
 import { VilleComponent } from '../../pages/ville/ville.component';
+import { ChartComponent } from '../../pages/chart/chart.component';
 
 import { DashboardComponent } from '../../pages/dashboard/dashboard.component';
 import { IconsComponent } from '../../pages/icons/icons.component';
@@ -40,13 +39,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     DashboardComponent,
     RegionComponent,
     AttestationComponent,
-    CompteComponent,
     EmployeComponent,
     EtablissementComponent,
     EtudiantComponent,
     ProfilComponent,
-    TypeComponent,
     VilleComponent,
+    ChartComponent,
     UserProfileComponent,
     TablesComponent,
     IconsComponent,

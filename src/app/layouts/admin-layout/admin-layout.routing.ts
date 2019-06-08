@@ -12,21 +12,18 @@ import { EmployeComponent } from 'src/app/pages/employe/employe.component';
 import { EtudiantComponent } from 'src/app/pages/etudiant/etudiant.component';
 import { EtablissementComponent } from 'src/app/pages/etablissement/etablissement.component';
 import { ProfilComponent } from 'src/app/pages/profil/profil.component';
-import { CompteComponent } from 'src/app/pages/compte/compte.component';
-import { TypeComponent } from 'src/app/pages/type/type.component';
 import { AttestationComponent } from 'src/app/pages/attestation/attestation.component';
 import { VilleComponent } from 'src/app/pages/ville/ville.component';
+import { ChartComponent } from 'src/app/pages/chart/chart.component';
 
 export const AdminLayoutRoutes: Routes = [
-    { path: 'dashboard',      component: DashboardComponent },
-
+    { path: 'dashboard',    component: DashboardComponent },
+    { path: 'chart',        component: ChartComponent },
     { path: 'region',       component: RegionComponent },
     { path: 'employe',      component: EmployeComponent },
     { path: 'profil',       component: ProfilComponent },
     { path: 'etudiant',     component: EtudiantComponent },
-    { path: 'etablissemnt', component: EtablissementComponent },
-    { path: 'compte',       component: CompteComponent },
-    { path: 'type',         component: TypeComponent },
+    { path: 'etablissement', component: EtablissementComponent },
     { path: 'attestation',  component: AttestationComponent },
     { path: 'ville',        component: VilleComponent },
 

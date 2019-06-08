@@ -1,6 +1,5 @@
 import { Profil } from './Profil';
 import { Etablissement } from './Etablissement';
-import { Compte } from './Compte';
 
 export class Employe{
   constructor(
@@ -10,9 +9,10 @@ export class Employe{
     public dateNaissance?: any,
     public lieuNaissance?: string,
     public dateEmbauche?: any,
+    public login?: string,
+    public password?: string,
     public profil?: any,
     public etablissement?: any,
-    public compte?: any
   )
   {
     
